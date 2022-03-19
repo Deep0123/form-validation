@@ -57,7 +57,7 @@ const validateInputs = () => {
 
     if(numberValue === '') {
         setError(number, 'Phone number is required');
-    } else if (numberValue.length < 10 || numberValue > 10) {
+    } else if (numberValue.length != 10) {
         setError(number, 'Provide a valid phone number');
     } else {
         setSuccess(number);
