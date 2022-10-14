@@ -3,8 +3,15 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.container{
+    width: 941px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
 #form {
-    width: 300px;
+    width: 90%;
     margin: 20vh auto 0 auto;
     padding: 20px;
     background-color: whitesmoke;
